@@ -1,0 +1,57 @@
+#image{
+    transform: translateX(400px);
+    height: 50vh;
+}
+h1:first-of-type{
+    transform: translateX(550px);
+}
+h2{
+    transform: translateX(450px);
+    
+}
+h3{
+    transform:translateX(450px);
+}
+h1:nth-of-type(2){
+    transform:translateX(550px);
+}
+h1:nth-of-type(3){
+    transform:translateX(550px);
+}
+h1:nth-of-type(4){
+    transform:translateX(550px);
+}
+div{
+    transform: translateX(450px);
+}
+button:first-of-type{
+    background-color: chartreuse;
+    border:5px solid teal;
+    padding: 1em 2em;
+    font-size: 1.2em;
+
+}
+button:nth-of-type(2){
+    background-color: chartreuse;
+    border:5px solid teal;
+    padding: 1em 2em;
+    font-size: 1.2em;
+}
+button:nth-of-type(3){
+    background-color:red;
+    border:5px solid teal;
+    padding: 1em 2em;
+    font-size: 1.2em;
+}
+#btn1:hover{
+    background-color: lawngreen;
+    color:teal;
+}
+#btn2:hover{
+    background-color: lawngreen;
+    color:teal;
+}
+#winscore{
+    transform:translateX(450px) translateY(-19px);
+    border: 5px solid hotpink;
+}
